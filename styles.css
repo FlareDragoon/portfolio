@@ -1,0 +1,29 @@
+body {
+    background-color: #7791d9;
+}
+
+.sidemenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(38, 92, 143);
+}
+
+.menuitem {
+    display: inline;
+    color: white;
+    border-right: 1px solid #bbb;    
+}
+
+.menulink {
+    
+}
+
+li a:hover {
+    background-color: rgb(5, 4, 87);
+}
+
+.active {
+    background-color: #0206fa;
+}
