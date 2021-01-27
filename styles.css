@@ -8,12 +8,27 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: rgb(38, 92, 143);
+    position: sticky;
+    top: 0;
+    width: 100%;
 }
 
 .menuitem {
     display: inline;
     color: white;
+    padding: 14px 16px;
     border-right: 1px solid #bbb;    
+}
+
+.menuitem:last-child {
+    border-right: none;
+}
+
+.menulink {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .menulink:visited {
