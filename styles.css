@@ -44,15 +44,16 @@ li a:hover {
 }
 
 h1 {
-    font: Helvetica Arial;
-    height: 18px;
+    text-align: center;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 36px;
 }
 
 h2 {
-    font: Helvetica Arial;
-    height: 14px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
 }
 
 p {
-    color:#bbb
+    background-color:#bbb
 }
