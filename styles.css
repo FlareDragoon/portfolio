@@ -16,8 +16,8 @@ body {
     border-right: 1px solid #bbb;    
 }
 
-.menulink {
-    
+.menulink:visited {
+    color:white;
 }
 
 li a:hover {
